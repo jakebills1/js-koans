@@ -20,4 +20,11 @@
 * mutability
   * the properties and methods of an object are public and muteable
   * the variables inside a constructor and cunstructor args are private
- 
+* higher order functions
+  * filter returns array items meeting a criteria
+  * map transforms each element in an array
+  * reduce updates an accumalator as it iterates over the array
+  * forEach is for simple iteration
+  * all tests whether all items in array pass condition
+  * range can generate an array, it takes three args: start stop and step. 1st and 3rd args are optional
+  * chain and value is used to run multiple hof's  
