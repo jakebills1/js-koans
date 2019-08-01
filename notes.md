@@ -13,3 +13,11 @@
   * functions can be called with too many arguments with little affect, but too few args can return undefined behavior
   * the arguments keyword if an array refering to however many arguments were passed in
   * functions are passed by value
+* Objects 
+  * the `in` keyword tests if a property exists in an object, returning true or false
+  * to delete a property of an object, `delete <object>.<property>`
+  * the prototype property of object is used to add properties to all instances of that object
+* mutability
+  * the properties and methods of an object are public and muteable
+  * the variables inside a constructor and cunstructor args are private
+ 
