@@ -28,3 +28,7 @@
   * all tests whether all items in array pass condition
   * range can generate an array, it takes three args: start stop and step. 1st and 3rd args are optional
   * chain and value is used to run multiple hof's  
+* About Inheritance
+  * objects inherit properties and methods from their base methods
+* applications
+  * problems can be solved imperatively or functionally

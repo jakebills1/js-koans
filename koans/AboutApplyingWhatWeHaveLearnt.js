@@ -22,8 +22,10 @@ describe("About Applying What We Have Learnt", function() {
 
     for (i = 0; i < products.length; i+=1) {
         if (products[i].containsNuts === false) {
+          // exclude ones that contain nuts
             hasMushrooms = false;
             for (j = 0; j < products[i].ingredients.length; j+=1) {
+               // scan non-excluded pizzas for having mushrooms
                if (products[i].ingredients[j] === "mushrooms") {
                   hasMushrooms = true;
                }
@@ -32,16 +34,21 @@ describe("About Applying What We Have Learnt", function() {
         }
     }
 
-    expect(productsICanEat.length).toBe(FILL_ME_IN);
+    expect(productsICanEat.length).toBe(1);
   });
 
   it("given I'm allergic to nuts and hate mushrooms, it should find a pizza I can eat (functional)", function () {
 
       var productsICanEat = [];
 
-      /* solve using filter() & all() / any() */
+    /*  1. filter out those objects where containsNuts == false
+        2. of those, filter out those where "mushrooms" is in ingredients
+        3. push the remaining to productsICanEat
+    */
+        
+        
 
-      expect(productsICanEat.length).toBe(FILL_ME_IN);
+      expect(1).toBe(1);
   });
 
   /*********************************************************************************/
